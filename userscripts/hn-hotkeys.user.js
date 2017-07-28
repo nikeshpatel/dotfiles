@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name       Hacker News shortcuts
-// @version    1.0
+// @version    1.1
 // @updateURL   https://raw.githubusercontent.com/nikeshpatel/dotfiles/master/userscripts/hn-hotkeys.user.js
 // @downloadURL   https://raw.githubusercontent.com/nikeshpatel/dotfiles/master/userscripts/hn-hotkeys.user.js
 // @description  Hotkeys for use on Hacker News
