@@ -24,7 +24,7 @@
         if (e.keyCode === 9 && titles_helper.length === 0) { //tab
             titles_helper = document.querySelectorAll('.votelinks');
             title = titles_helper[currentLink].previousSibling.previousSibling;
-            comments = document.querySelectorAll('.subtext a:nth-child(7)');
+            comments = document.querySelectorAll('.subtext a + a:not(.pocket-hn-button)');
             links = document.querySelectorAll('.votelinks+ .title .storylink');
             currentLink = 0;
             title.innerText = "▶ " + title.innerText;
