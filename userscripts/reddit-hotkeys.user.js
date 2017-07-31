@@ -32,14 +32,14 @@
             titles[currentLink].className += " TMselected ";
             e.preventDefault();
         }
-        if (e.keyCode === 40 && titles.length > 0 && currentLink!==(titles.length - 1)) { //down
+        if (e.keyCode === 39 && titles.length > 0 && currentLink!==(titles.length - 1)) { // left (to go down)
             //if (currentLink === 29) {break};
             titles[currentLink].className = titles[currentLink].className.replace( /(?:^|\s)TMselected(?!\S)/ , '' );
             currentLink = currentLink + 1;
             titles[currentLink].className += " TMselected ";
             e.preventDefault();
         }
-        if (e.keyCode === 38 && titles.length > 0 && currentLink!==0) { //up
+        if (e.keyCode === 37 && titles.length > 0 && currentLink!==0) { // right (to go up)
             titles[currentLink].className = titles[currentLink].className.replace( /(?:^|\s)TMselected(?!\S)/ , '' );
             currentLink = currentLink - 1;
             titles[currentLink].className += " TMselected ";

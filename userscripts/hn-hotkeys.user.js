@@ -30,7 +30,7 @@
             title.innerText = "▶ " + title.innerText;
             e.preventDefault();
         }
-        if (e.keyCode === 40 && titles_helper!==0 && currentLink!==(titles_helper.length - 1)) { //down
+        if (e.keyCode === 39 && titles_helper!==0 && currentLink!==(titles_helper.length - 1)) { // left (to go down)
             //if (currentLink === 29) {break};
             title.innerText = title.innerText.replace("▶ ","");
             currentLink = currentLink + 1;
@@ -38,7 +38,7 @@
             title.innerText = "▶ " + title.innerText;
             e.preventDefault();
         }
-        if (e.keyCode === 38 && titles_helper!==0 && currentLink!==0) { //up
+        if (e.keyCode === 37 && titles_helper!==0 && currentLink!==0) { // right (to go up)
             title.innerText = title.innerText.replace("▶ ","");
             currentLink = currentLink - 1;
             title = titles_helper[currentLink].previousSibling.previousSibling;
