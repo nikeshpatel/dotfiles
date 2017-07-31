@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name       Reddit shortcuts
-// @version    1.0
+// @version    1.1
 // @updateURL   https://raw.githubusercontent.com/nikeshpatel/dotfiles/master/userscripts/reddit-hotkeys.user.js
 // @downloadURL   https://raw.githubusercontent.com/nikeshpatel/dotfiles/master/userscripts/reddit-hotkeys.user.js
 // @description  enter something useful
