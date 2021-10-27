@@ -25,7 +25,7 @@
             titles_helper = document.querySelectorAll('.votelinks');
             title = titles_helper[currentLink].previousSibling.previousSibling;
             comments = document.querySelectorAll('.hnuser+ .age a');
-            links = document.querySelectorAll('.votelinks+ .title .storylink');
+            links = document.querySelectorAll('.votelinks+ .title .titlelink');
             currentLink = 0;
             title.innerText = "▶ " + title.innerText;
             e.preventDefault();
