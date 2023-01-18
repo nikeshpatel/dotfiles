@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name       Hacker News shortcuts
-// @version    1.5
+// @version    1.6
 // @updateURL   https://raw.githubusercontent.com/nikeshpatel/dotfiles/master/userscripts/hn-hotkeys.user.js
 // @downloadURL   https://raw.githubusercontent.com/nikeshpatel/dotfiles/master/userscripts/hn-hotkeys.user.js
 // @description  Hotkeys for use on Hacker News
@@ -25,7 +25,7 @@
             titles_helper = document.querySelectorAll('.votelinks');
             title = titles_helper[currentLink].previousSibling.previousSibling;
             comments = document.querySelectorAll('.hnuser+ .age a');
-            links = document.querySelectorAll('.titleline > a');
+            links = document.querySelectorAll('.votelinks+ .title .titleline > a');
             currentLink = 0;
             title.innerText = "▶ " + title.innerText;
             e.preventDefault();
